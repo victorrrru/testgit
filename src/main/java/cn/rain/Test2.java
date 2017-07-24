@@ -4,6 +4,13 @@ public class Test2 {
 
     private String sex;
 
+    private int id;
+
+    public Test2(String sex, int id) {
+        this.sex = sex;
+        this.id = id;
+    }
+
     public String getSex() {
         return sex;
     }
